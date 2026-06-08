@@ -17,7 +17,7 @@ export default function App() {
 
   const handleBuyNow = () => {
     if (cartCount === 0) {
-      alert("🛒 Cart empty-ah இருக்கு ma! Please select a flavor first.");
+      alert("🛒 Your cart is empty! Please select a flavor first.");
       document.getElementById('flavors')?.scrollIntoView({ behavior: 'smooth' });
       return;
     }
