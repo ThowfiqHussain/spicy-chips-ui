@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
-import HeatLab from './components/HeatLab.jsx';
 import Flavors from './components/Flavors.jsx';
 import SurvivalLogs from './components/SurvivalLogs.jsx';
 import PromoVideo from './components/PromoVideo.jsx';
@@ -76,7 +75,6 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <HeatLab />
         <Flavors addToCart={addToCart} handleBuyNow={handleBuyNow} />
         <SurvivalLogs />
         <PromoVideo />
