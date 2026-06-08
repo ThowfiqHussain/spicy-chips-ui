@@ -1,16 +1,25 @@
-# React + Vite
+# CrunchX: The Ultimate Spicy Chips Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, highly interactive, and responsive web application designed for **CrunchX** — the spiciest chips in the universe. Built with **React 19**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌶️ Features
 
-## React Compiler
+1. **Cinematic Hero**: Floating chip components and animated SVG fire text overlays.
+2. **The Manifesto of Heat**: Word-by-word scroll-linked reveal animation highlighting spicy keywords with mouse-trailing heat haze glows.
+3. **The Scoville Heat Lab**: An interactive diagnostic slider/gauge showing heat warning metrics, sweat coefficients, and custom antidote remedies for each pepper level.
+4. **Interactive Shopping Grid**: Select and buy extreme variants: *Inferno Red Chilli*, *Midnight Black Pepper*, and *Venom Green Chilli*.
+5. **E-Commerce Cart Drawer**: Slide-out mini-cart tracking items, quantities, and totals with custom mock checkout flows.
+6. **Incident logs (Testimonials)**: Customer reviews styled as emergency medical reports.
+7. **Containment FAQs**: Safety briefing accordion cards detailing capsaicin handling and hydration defenses.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Core**: React 19, JavaScript, HTML5
+- **Styling**: Tailwind CSS (Utility styling), Vanilla CSS (Custom Keyframe animations)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Build Tool**: Vite
